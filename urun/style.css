@@ -1,0 +1,46 @@
+/* Navbar tasarımı */
+.navbar {
+    background-color: rgba(255, 255, 255, 0.6); 
+    backdrop-filter: blur(2px);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; 
+    border-bottom-left-radius: 1rem; 
+    border-bottom-right-radius: 1rem; 
+}
+.enUst {
+    background-color: #F2E7DC; 
+}
+.ozelWidth {
+    width: 100%; 
+}
+.ozelMt {
+    margin-top: 10rem; 
+}
+.ozelBtn,
+.ozelBtn2 {
+    transition: 200ms ease-in-out !important;
+    border: 2px solid #E7B88A !important;
+}
+
+
+.ozelBtn:hover,
+.ozelBtn2:hover {
+    background-color: #F5DDC5 !important;
+}
+.ozelWidth2 {
+    width: 70%; 
+}
+
+.girisDiv {
+    width: 35%;
+    padding: 5rem; 
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; 
+    backdrop-filter: blur(7px);
+}
+
+
+.bodi {
+    background-image: url("./foto/girisFoto.jpg");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
